@@ -84,7 +84,7 @@ public:
 
 class allRounder:public batsman,public bowler
 {
-    public:
+public:
     string toString()
     {
         return batsman::toString() + " Wickets :- " + to_string(this->getWickets());
