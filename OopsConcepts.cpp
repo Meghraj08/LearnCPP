@@ -8,7 +8,7 @@ Inheritance -> legacy
 Polymorphism:
 
     One thing is doing different task
-Method Overriding :-
+    Method Overriding :-
     Parent::display()
     Child::display()
 
@@ -41,13 +41,11 @@ setter -> Write
 class Parent{
     public:
         void display(){ cout<<"I am Parent"<<endl;}
-
 };
 
 class Child:public Parent{
     public:
         void display(){ cout<<"I am Child"<<endl;}
-
 };
 ***/
 /***
@@ -112,12 +110,10 @@ main()
     **/
     /***
         Calc c;
-
         cout<<c.add(10,20)<<endl;
         cout<<c.add(10.200,20.33)<<endl;
         cout<<c.add(1000L,20L)<<endl;
     ***/
-
     Customer c("123456");
     c.display();
     c.setPin(1111);
